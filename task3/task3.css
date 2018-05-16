@@ -1,0 +1,33 @@
+html,body{height:100%;}
+body{background-color:rgb(104,205,213);}
+img.pic1{float:left;}
+.logo1{
+  text-align: center;
+  display:block;
+	clear:both;
+}
+.line1{
+  font-size: 30px;
+  font-family: "Adobe Heiti Std";
+  color: rgb(255, 255, 255);
+  line-height: 1.807;
+}
+.line2{ 
+  font-size: 24px;
+  font-family: "Adobe Heiti Std";
+  color: rgb(255, 255, 255);
+  line-height: 2.259;
+  display:block;
+}
+.pic_left{
+  float:left;
+  margin-left: 30%;
+}
+.pic_right{
+  float:right;
+  margin-right: 30%;
+  display:inline;
+} 
+.img_center{text-align: center}
+
+
