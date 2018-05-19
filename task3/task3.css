@@ -1,33 +1,68 @@
-html,body{height:100%;}
+@media only screen and (min-width:640px) {
+    html {
+        font-size:200px;
+    }
+}
+
+@media only screen and (min-width: 480px)and (max-width: 639px){
+    html{
+        font-size: 150px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:479px) {
+    html {
+        font-size:125px;
+        }
+} 
+@media only screen and (min-width:360px) and (max-width:399px) {
+    html {font-size:112.5px; 
+    } 
+}
+@media only screen and (min-width:320px) and (max-width:359px) {
+    html {font-size:100px;
+    }    
+  }
+html,body{width:100%;margin:0 0 5.045rem 0;}
 body{background-color:rgb(104,205,213);}
-img.pic1{float:left;}
+img.pic1{float:left;width:0.27rem;height:auto;margin-left:0.175rem;margin-top:0.1rem}
 .logo1{
-  text-align: center;
-  display:block;
-	clear:both;
+  margin:0;
+  text-align:center;
+  clear:both;
+}
+img.pic2{
+  margin-top: 0.21rem;width:0.905rem;height:auto;
 }
 .line1{
-  font-size: 30px;
+  font-size: 0.15rem;
   font-family: "Adobe Heiti Std";
   color: rgb(255, 255, 255);
   line-height: 1.807;
+  margin-left:0.45rem;
+  margin-top:0.62rem;
+  margin-right: 0.49rem;
 }
 .line2{ 
-  font-size: 24px;
+  font-size: 0.12rem;
   font-family: "Adobe Heiti Std";
   color: rgb(255, 255, 255);
   line-height: 2.259;
   display:block;
+  margin-top: 0.09rem;
 }
 .pic_left{
   float:left;
-  margin-left: 30%;
+  margin-left: 0.685rem;
 }
 .pic_right{
   float:right;
-  margin-right: 30%;
+  margin-right: 0.69rem;
   display:inline;
 } 
 .img_center{text-align: center}
+.img_contact,.img_logo2{
+  width:0.42rem;height:auto;
+}
+
 
 
